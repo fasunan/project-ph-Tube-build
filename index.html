@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PH Tube</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon" />
+  </head>
+
+  <body class="m-10">
+    <header>
+      <div>
+        <div class="navbar bg-base-100 mb-4">
+          <div class="navbar-start">
+            <img src="Logo.png" alt="" />
+          </div>
+          <div class="navbar-center">
+            <button class="btn btn-outline hover:bg-red-500">
+              Sort By Views
+            </button>
+          </div>
+          <div class="navbar-end">
+            <button id="btn-blog" class="btn btn-active bg-red-500">
+              Blog
+            </button>
+          </div>
+        </div>
+
+        <div class="border border-gray-500 bg-slate-600 w-50% h-75%"></div>
+      </div>
+    </header>
+
+    <main>
+      <div
+        id="category-container"
+        class="flex items-center justify-center mt-6 gap-3"
+      ></div>
+
+      <div
+        id="content-container"
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4"
+      ></div>
+    </main>
+
+    <!-- script -->
+    <script src="JS/index.js"></script>
+    <!-- <script src="JS/script.js"></script> -->
+  </body>
+</html>

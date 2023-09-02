@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PH Blog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <div class="navbar bg-neutral text-neutral-content">
+        <a class="btn btn-ghost normal-case text-xl text-center"
+          ><span class="text-red-600">PH</span>Blog</a
+        >
+      </div>
+    </header>
+    <main>
+      <section class="bg-slate-200 text-start">
+        <h1 class="text-5xl font-bold text-center">
+          MY <span class="text-red-500">PH</span> BLOG
+        </h1>
+        <br />
+
+        <div class="m-60 mt-5 mb-8">
+          <h3 class="text-xl font-medium text">
+            Here some common Question and Ans
+          </h3>
+          <div class="text-lg">
+            <p class="text-red-500">
+              Q1. Discuss the scope of var, let, and const
+            </p>
+            <p>
+              <span class="text-green-600 font-bold">Ans:</span>
+              Var, Let, and const are used for declare variable. Their work is
+              just same but has some common issue.
+              <br />
+              1. var is is create variables that can be assigned another value.
+              <br />
+              2. let is also create a variables and also assigned another value.
+              <br />
+              3. But It is recommended to use let instead of var.
+              <br />
+              4. where const variables cannot assigned another value. its fixed.
+              <br />
+              5. If anyone don't wants to change variables should be used const.
+            </p>
+            <p class="text-red-500">
+              Q2. Tell us the use cases of null and undefined
+            </p>
+            <p>
+              <span class="text-green-600 font-bold">Ans:</span>
+              Undefined means the variable has been declared, but its value has
+              not been assigned.
+              <br />
+              8 ways to get undefined
+              <br />
+              1. variable that is not initialized will give undefined.
+              <br />
+              2.function with no return will give undefined.
+              <br />
+              3.parameter that is not passed will be undefined
+              <br />
+              4. if return has nothing on the right side will give undefined
+              <br />
+              5.property that does not exist in object will give undefined.
+              <br />
+              6.accessing array element outside of the index range will show
+              undefined
+              <br />
+              7. deleting an element inside an array will undefined.
+              <br />
+              8. set a value directly to undefined
+              <br />
+              And Null means an empty value or a blank value. The typeof()
+              operator returns the type as an object for a variable whose value
+              is assigned as null.
+            </p>
+            <p class="text-red-500">Q3. What do you mean by REST API?</p>
+            <p>
+              <span class="text-green-600 font-bold">Ans:</span>
+              In my understanding , An API, (Application Programming Interface),
+              is a set of rules that define how applications or devices can
+              connect to and communicate with each other.A REST API
+              (Representational State Transfer Application Programming
+              Interface) is a set of rules and conventions for designing web
+              services that enable communication and interaction between
+              different software applications over the internet. REST APIs often
+              use JSON for data format. It makes data accessible through
+              standard HTTP methods like GET, POST, PUT, and DELETE . And so on.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer p-4 bg-neutral text-neutral-content">
+      <div class="">
+        <h1 class="text-xl font-bold text-center">
+          Thx For Reading <span class="text-red-500">PH</span> BLOG
+        </h1>
+      </div>
+    </footer>
+  </body>
+</html>
